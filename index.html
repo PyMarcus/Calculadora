@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+      <head>
+            <title>Calculadora</title>
+            <meta charset="utf-8">
+            <link href="./style.css" type="text/css" rel="stylesheet">
+      </head>
+        <body>
+          <div class="container">
+            <div>
+                <div class="calculator"> <!--Calculadora-->
+                   <div class="box">
+                     <div class="center">
+                      <div class="limit">
+                       <p><marquee>Calculadora - by Marcus V</marquee></p>
+                    <div class="visor">
+                      <input id="visor" onfocus="hi()" class="viewer" type="text" placeholder="0">
+                  </div>
+                  <div class="row">
+                    <div>
+                      <button id="c" onclick="clicks('c')" class="button-c">C</button>
+                  </div>
+                  <div>
+                      <button id="divisao"  onclick="clicks('divisao')" >/</button>
+                  </div>
+                  <div>
+                    <button id="x" onclick="clicks('x')" >x</button>
+                  </div>
+                  </div>
+
+                  <div class="row">
+                    <div>
+                      <button id="7" onclick="clicks('7')" >7</button>
+                    </div>
+                    <div>
+                      <button id="8" onclick="clicks('8')" >8</button>
+                    </div>
+                    <div>
+                      <button id="9" onclick="clicks('9')" >9</button>
+                    </div>
+                    <div>
+                      <button id="menos" class="button-minus" onclick="clicks('-')">-</button>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div>
+                      <button id="4" onclick="clicks('4')">4</button>
+                    </div>
+                    <div>
+                      <button id="5" onclick="clicks('5')">5</button>
+                    </div>
+                    <div>
+                      <button id="6" onclick="clicks('6')">6</button>
+                    </div>
+                    <div>
+                      <button id="soma" onclick="clicks('soma')">+</button>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div>
+                      <button id="1" onclick="clicks('1')">1</button>
+                    </div>
+                    <div>
+                      <button id="2" onclick="clicks('2')">2</button>
+                    </div>
+                    <div>
+                      <button id="3" onclick="clicks('3')">3</button>
+                    </div>
+                    <div>
+                      <button id="igual" onclick="clicks('=')" class="button-equal">=</button>
+                    </div>
+                  </div>
+
+
+                  <div class="row final">
+                    <div>
+                      <button id="0" onclick="clicks('0')" class="button-zero">0</button>
+                    </div>
+                    <div>
+                      <button id="ponto" onclick="clicks('.')" class="button-point">.</button>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                </div>
+                   </div>
+                </div>
+            </div>
+
+
+            <footer>
+              <script src="script.js"></script>
+            </footer>
+        </body>
+</html>

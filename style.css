@@ -1,0 +1,140 @@
+
+body{
+    margin: 0 auto;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: rgb(202, 226, 233);
+}
+
+
+/*Linhas da calculadora*/
+
+.row{
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -25px;
+  margin-left: 2px;
+}
+
+/*Container*/
+.container{
+  max-width: 540px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*calculadora*/
+.calculator{
+}
+
+/*caixa de fora*/
+.box{
+
+  margin-top: 100px;
+}
+
+/*alinha a calculadora ao centro*/
+.center{
+
+  margin-left: 125px;
+  margin-right: 100px;
+}
+
+
+button{
+  padding: 18px!important;
+  margin:2px;
+  padding-left: 29px!important;
+  padding-right: 29px!important;
+  border-radius: 9%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  cursor:pointer;
+  background-color: rgb(150, 146, 146);
+  color: rgb(72, 235, 235);;
+}
+/*visor*/
+
+.visor{
+  float:right;
+  margin-right: -46px;
+  width: 350px;
+  padding:2px;
+  display: flex;
+  justify-content: left;
+
+}
+.viewer{
+  background: rgb(72, 235, 235);
+  color: #6c7680;
+  border-radius: 5%;
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+  width: 263px;
+  padding: 18px;
+}
+
+/*bordas*/
+.limit{
+  padding-top: 5px;
+  border-radius: 2%;
+  height: 450px;
+  padding-right: px;
+  border: 2px solid   rgb(28, 168, 168);;
+  ;
+  background: rgb(173, 169, 169);
+}
+
+/*detalhes*/
+
+p{
+
+  line-height: 1;
+  padding: 0px;
+  margin:0px;
+  text-align: center;
+  font-weight: bolder;
+  color: rgb(28, 168, 168);;
+}
+
+.button-c{
+  width: 155px;
+}
+
+button:hover{
+  background: rgb(81, 201, 201);
+  color: white;
+}
+.button-equal{
+  height: 132px;
+}
+.button-zero{
+  width: 150px;
+  height: 64.6px
+}
+.final{
+  width: 235px!important;
+  float: left!important;
+  bottom: 69px!important;
+  position: relative;
+  align-items: center;
+  align-content: center!important;
+}
+.button-minus{
+  width: 73px;
+}
+
+.button-point{
+  width: 74px;
+
+}
